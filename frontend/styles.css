@@ -98,6 +98,8 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .article-card:hover {
@@ -106,8 +108,20 @@ h2 {
     border-color: #667eea;
 }
 
+.article-category {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    margin-bottom: 12px;
+    align-self: flex-start;
+    font-weight: 500;
+}
+
 .article-title {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 600;
     color: #333;
     margin-bottom: 12px;
@@ -118,24 +132,7 @@ h2 {
     color: #666;
     font-size: 0.95rem;
     line-height: 1.6;
-    margin-bottom: 15px;
     flex-grow: 1;
-}
-
-.article-link {
-    display: inline-block;
-    background: #667eea;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.3s ease;
-    text-align: center;
-}
-
-.article-link:hover {
-    background: #5568d3;
 }
 
 .section-header {

@@ -3,7 +3,7 @@ const CONFIG = {
         API_URL: 'https://YOUR-CLOUD-RUN-URL.run.app/api'
     },
     development: {
-        API_URL: 'http://localhost:8000/api'
+        API_URL: 'http://localhost:5000/api'
     }
 };
 

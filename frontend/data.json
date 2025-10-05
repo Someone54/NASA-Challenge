@@ -1,0 +1,89 @@
+{
+  "success": true,
+  "articles": [
+    {
+      "id": 1,
+      "title": "Editorial: Revisiting the limits of plant life - plant adaptations to extreme terrestrial environments relating to astrobiology and space biology.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10472590/",
+      "description": "Editorial que examina las adaptaciones de las plantas en ambientes terrestres extremos para entender mejor la posibilidad y los límites de la vida vegetal en contextos astrobiológicos y espaciales.",
+      "category": "Biología Espacial y Humana (plant, cell, stress, stem...)"
+    },
+    {
+      "id": 2,
+      "title": "Effects of Space Flight on Inflammasome Activation in the Brain of Mice.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11941215/",
+      "description": "Estudio que investiga cómo el vuelo espacial afecta la activación de los inflamasomas (componentes clave de la inflamación) en el cerebro de los ratones.",
+      "category": "Tema Específico: effects, effects spaceflight, spaceflight (effects, effects spaceflight, spaceflight, mice...)"
+    },
+    {
+      "id": 3,
+      "title": "Machine learning algorithm to characterize antimicrobial resistance associated with the International Space Station surface microbiome.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9400218/",
+      "description": "Utiliza un algoritmo de aprendizaje automático para identificar y caracterizar la resistencia antimicrobiana dentro de las comunidades microbianas que residen en las superficies de la Estación Espacial Internacional (ISS).",
+      "category": "Tema Específico: international space station, international space, station (international space station, international space, station, space station...)"
+    },
+    {
+      "id": 4,
+      "title": "A parasitoid wasp of Drosophila employs preemptive and reactive strategies to deplete its host's blood cells.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8191917/",
+      "description": "Investigación biológica sobre una avispa parasitoide que utiliza tácticas avanzadas (tanto preventivas como de respuesta) para reducir las células sanguíneas de su huésped (Drosophila).",
+      "category": "Tema Específico: space, elegans, caenorhabditis (space, elegans, caenorhabditis, caenorhabditis elegans...)"
+    },
+    {
+      "id": 5,
+      "title": "Bone remodeling is regulated by inner ear vestibular signals.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6615562/",
+      "description": "Análisis de cómo las señales provenientes del sistema vestibular del oído interno (encargado del equilibrio y la gravedad) influyen y regulan el proceso de remodelación ósea.",
+      "category": "Tema Específico: signaling plants, ca2, plants (signaling plants, ca2, plants, signaling...)"
+    },
+    {
+      "id": 6,
+      "title": "HLB1 Is a Tetratricopeptide Repeat Domain-Containing Protein That Operates at the Intersection of the Exocytic and Endocytic Pathways at the TGN/EE in Arabidopsis.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4826010/",
+      "description": "Caracterización de la proteína HLB1 en Arabidopsis thaliana y su función en la interfaz de las vías de transporte celular (exocitosis y endocitosis) en la red trans-Golgi.",
+      "category": "Tema Específico: arabidopsis, arabidopsis thaliana, thaliana (arabidopsis, arabidopsis thaliana, thaliana, response...)"
+    },
+    {
+      "id": 7,
+      "title": "Osteocyte apoptosis caused by hindlimb unloading is required to trigger osteocyte RANKL production and subsequent resorption of cortical and trabecular bone in mice femurs.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5488280/",
+      "description": "Estudio mecanicista que demuestra que la pérdida ósea (osteoclastogénesis) inducida por la descarga (simulación de microgravedad) en ratones se inicia con la apoptosis (muerte celular) de los osteocitos.",
+      "category": "Tema Específico: bone, muscle, loss (bone, muscle, loss, bone loss...)"
+    },
+    {
+      "id": 8,
+      "title": "Dietary countermeasure mitigates simulated spaceflight-induced osteopenia in mice.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7162976/",
+      "description": "Evaluación de una intervención dietética específica como contramedida para reducir o revertir la pérdida de densidad ósea (osteopenia) causada por la simulación del vuelo espacial en ratones.",
+      "category": "Tema Específico: induced, alterations, spaceflight induced (induced, alterations, spaceflight induced, spaceflight...)"
+    },
+    {
+      "id": 9,
+      "title": "Proteomic analysis of mouse brain subjected to spaceflight.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6337482/",
+      "description": "Análisis proteómico (estudio de las proteínas) realizado en el cerebro de ratones que han participado en misiones de vuelo espacial para identificar cambios moleculares inducidos por el ambiente espacial.",
+      "category": "Tema Específico: spaceflight, omics, experiments (spaceflight, omics, experiments, mouse...)"
+    },
+    {
+      "id": 10,
+      "title": "Knee and Hip Joint Cartilage Damage from Combined Spaceflight Hazards of Low-Dose Radiation Less than 1 Gy and Prolonged Hindlimb Unloading.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6599637/",
+      "description": "Investigación sobre el daño en el cartílago de las articulaciones de la rodilla y cadera causado por la exposición combinada a radiación de baja dosis y la simulación de microgravedad.",
+      "category": "Biología Espacial y Humana (tissue, radiation, bone, marrow...)"
+    },
+    {
+      "id": 11,
+      "title": "Simulated microgravity alters gene regulation linked to immunity and cardiovascular disease.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11353732/",
+      "description": "Este estudio examina cómo la microgravedad simulada cambia la expresión genética en vías moleculares relacionadas con las funciones inmunes y cardiovasculares.",
+      "category": "Biología Espacial y Humana (microgravity, simulated, expression, simulated microgravity...)"
+    },
+    {
+      "id": 12,
+      "title": "Neutrophil to Lymphocyte ratio: A biomarker to monitor the immune status of astronauts.",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7667275/",
+      "description": "Propuesta y análisis del uso de la relación neutrófilos/linfocitos (NLR) como un biomarcador accesible para monitorear la salud inmunológica de los astronautas durante el vuelo espacial.",
+      "category": "Biología Espacial y Humana (responses, immune, spaceflight, single...)"
+    }
+  ]
+}
