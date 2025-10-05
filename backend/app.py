@@ -7,10 +7,6 @@ import os
 app = Flask(__name__)
 CORS(app)
 
-credentials_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 
-                                'nasaappschallenge-474115-7e9223349475.json')
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = credentials_path
-
 connector = Connector()
 
 def get_db_connection():
@@ -31,10 +27,9 @@ def get_articles():
         cursor = conn.cursor(pymysql.cursors.DictCursor)
         
         cursor.execute('''
-            SELECT a.id, a.title, a.url, a.description, c.name as category
-            FROM articles a
-            JOIN category c ON a.category_id = c.id
-            ORDER BY a.id
+            SELECT id, title, url, description, category_id as category
+            FROM articles
+            ORDER BY id
         ''')
         
         articles = cursor.fetchall()
@@ -53,11 +48,10 @@ def get_categories():
         cursor = conn.cursor(pymysql.cursors.DictCursor)
         
         cursor.execute('''
-            SELECT c.id, c.name, COUNT(a.id) as article_count
-            FROM category c
-            LEFT JOIN articles a ON c.id = a.category_id
-            GROUP BY c.id, c.name
-            ORDER BY c.name
+            SELECT DISTINCT category_id as id, category_id as name, COUNT(*) as article_count
+            FROM articles
+            GROUP BY category_id
+            ORDER BY category_id
         ''')
         
         categories = cursor.fetchall()

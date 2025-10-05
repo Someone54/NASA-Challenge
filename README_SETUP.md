@@ -1,4 +1,3 @@
-gcloud run deploy nasa-backend-service --source . --platform managed --region us-central1 --allow-unauthenticated --add-cloudsql-instances nasaappschallenge-474115:us-central1:nasapps
 
 
 # NASA Bioscience Articles - Deployment Guide
