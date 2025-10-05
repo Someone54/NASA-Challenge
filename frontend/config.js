@@ -1,6 +1,6 @@
 const CONFIG = {
     production: {
-        API_URL: 'https://nasa-backend-service-401379246049.us-central1.run.app'
+        API_URL: 'https://nasa-backend-service-401379246049.us-central1.run.app/api'
     },
     development: {
         API_URL: 'http://localhost:8080/api'
