@@ -10,7 +10,7 @@ async function fetchArticles() {
         showLoading(true);
         hideError();
         
-        const response = await fetch('data.json');
+        const response = await fetch(`${API_BASE_URL}/articles`);
         const data = await response.json();
         
         if (data.success) {
@@ -19,7 +19,7 @@ async function fetchArticles() {
             showError(data.error || 'Error loading articles');
         }
     } catch (error) {
-        showError('Error loading articles data');
+        showError('Error loading articles from database');
         console.error('Error:', error);
     } finally {
         showLoading(false);

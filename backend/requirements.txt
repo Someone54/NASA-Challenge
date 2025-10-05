@@ -1,10 +1,5 @@
-Flask==3.0.0
-flask-cors==4.0.0
-aiofiles
-google-cloud-sql-connector
-mysql-connector-python==8.2.0
-fastapi==0.104.1
-uvicorn==0.24.0
-google-cloud-storage==2.10.0
-gunicorn
-
+flask==3.1.2
+flask-cors==6.0.1
+cloud-sql-python-connector[pymysql]==1.14.1
+pymysql==1.1.1
+gunicorn==22.0.0

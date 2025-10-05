@@ -1,15 +1,16 @@
 const CONFIG = {
     production: {
-        API_URL: 'https://YOUR-CLOUD-RUN-URL.run.app/api'
+        API_URL: 'https://nasa-backend-service-401379246049.us-central1.run.app'
     },
     development: {
-        API_URL: 'http://localhost:5000/api'
+        API_URL: 'http://localhost:8080/api'
     }
 };
 
 const IS_PRODUCTION = window.location.hostname !== 'localhost' && 
                       window.location.hostname !== '127.0.0.1' &&
-                      !window.location.hostname.includes('192.168');
+                      !window.location.hostname.includes('192.168') &&
+                      !window.location.hostname.includes('file://');
 
 const API_BASE_URL = IS_PRODUCTION ? CONFIG.production.API_URL : CONFIG.development.API_URL;
 
