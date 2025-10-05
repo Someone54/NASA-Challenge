@@ -19,8 +19,20 @@
         
         <div id="error" class="error" style="display: none;"></div>
 
-        <section id="articles-section">
-            <h2>NASA Bioscience Articles</h2>
+        <section id="categories-section">
+            <div class="breadcrumb">
+                <span id="breadcrumb-text">Browse by Category</span>
+            </div>
+            <h2>Research Categories</h2>
+            <div id="categories-grid" class="grid"></div>
+        </section>
+
+        <section id="articles-section" style="display: none;">
+            <div class="breadcrumb">
+                <a href="#" id="back-to-categories">← Back to Categories</a>
+                <span id="category-name"></span>
+            </div>
+            <h2 id="articles-title">Articles</h2>
             <div id="articles-grid" class="grid"></div>
         </section>
     </main>
